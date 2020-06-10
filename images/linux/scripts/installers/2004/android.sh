@@ -49,9 +49,11 @@ fi
 echo "y" | ${ANDROID_SDK_ROOT}/tools/bin/sdkmanager \
     "ndk-bundle" \
     "platform-tools" \
+    "platforms;android-30" \
     "platforms;android-29" \
     "platforms;android-28" \
     "platforms;android-27" \
+    "build-tools;30.0.0" \
     "build-tools;29.0.3" \
     "build-tools;29.0.2" \
     "build-tools;29.0.0" \
